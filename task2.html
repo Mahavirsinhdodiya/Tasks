@@ -7,13 +7,13 @@
 	<style>
 		body
 		{
-			background: url(https://news.fnal.gov/wp-content/uploads/2020/02/2020-02-11_5e42c8469d971_White_background-scaled.jpg);
-			background-size: cover;
+			/*background: url(https://news.fnal.gov/wp-content/uploads/2020/02/2020-02-11_5e42c8469d971_White_background-scaled.jpg);
+			background-size: cover;*/
 			/*background: whitesmoke;*/
 		}
 		.x
 		{
-			width: 100%;
+			width: 93%;
 			
 		}
 		.y
@@ -33,66 +33,90 @@
 		{
 			outline: none;
 		}
-		table
+		
+		.t1
 		{
-			margin-top:75px;
-			margin-left: 200px;
-			/*background: whitesmoke;*/
-		background: transparent;
+	
+			margin-top:55px;
+			margin-bottom: 55px;
+			margin-left: 100px;
+		
+	/*	background:silver;
+		border-radius: 30px;*/
+		/*box-shadow: 1px 1px 30px black;
+		outline: none;*/
+	}
+		.t2
+		{
+			background: url(C:\\Users\\User\\Desktop\\mahavir.jpg);
+			background-size:100% 100%;
 		}
+		
+		
 
 	</style>
 </head>
 <body>
-	
-<form method="post" action="t2s.html">
-	<table cellpadding="5" cellspacing="5" align="center" class="t1">
+	<table style="width: 100%;" cellspacing="0" cellpadding="0">
 		<tr>
-			<td colspan="2" style="font-size:30px">Register</td>
-		</tr>
-		<tr>
-			<td colspan="2" style="font-size:10px; color: grey;">Lorem ipsum dolor sit amet, consectetur adipisicing </td>
-		</tr>
-		<tr>
-			<td>First name:<br>
-				<input type="text" name="fname" placeholder="e.g.john" class="y" required pattern="[a-zA-Z]{2,20}" title=" letters only...!">
-			</td> 
-			<td>Last name:<br>
-				<input  class="y" type="text" name="lname" placeholder="e.g.smith" required pattern="[a-zA-Z]{2,20}" title="letters only...!">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">Email Address:<br>
-				<input type="Email" name="em" placeholder="e.g.john@your-domain.com" class="x y"  required  title="Enter valid Email....">
-			</td>
-		</tr>
-		<tr>
-			<td>Phone Number:<br>
-				<input type="text" class="y" name="pn" placeholder="+00 0000 000 0000" required pattern="[0-9]{10}" title="numbers only...!">
-			</td>
-			<td>Website:<br>
-				<input type="text" name="wb" class="y" placeholder="e.g.https://google.com" required>
-			</td>
-		</tr>
-		<tr>
-			<td>Password:<br>
-				<input type="password" name="pd" class="y" placeholder="Your Password" required>
-			</td>
-			<td>Re-Type Password:<br>
-				<input type="password" name="rpd"  class="y" placeholder="Your Password" required>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2" style="font-size: 10px; color: grey;><input type="checkbox name="pr"  required>
-				Creating an account means you are okay with our <a href="tc.html" style="color:black;">Terms and Condition</a> and our <a style="color:black;" href="p.html">Privacy Policy.</a>	
-			</td> 
-		</tr>
-		<tr>
-			<td colspan="2">
-				<input type="Submit" name="Register" value="Register" style="background: coral; border: none;" class="y" required>
-			</td>
-		</tr>
-	</table>
-</form>
+			<td style="width:80%; background: white;">
+				<form method="post" action="t2s.html">
+					<table cellpadding="5" cellspacing="5" align="center" class="t1">
+						<tr>
+							<td colspan="2" style="font-size:30px">Register</td>
+						</tr>
+
+						<tr>
+							<td colspan="2" style="font-size:10px; color: grey;">Lorem ipsum dolor sit amet, consectetur adipisicing </td>
+						</tr>
+
+						<tr>
+							<td>First name:<br>
+										<input type="text" name="fname" placeholder="e.g.john" class="y" required pattern="[a-zA-Z]{2,20}" title=" letters only...!">
+							</td> 
+							<td>Last name:<br>
+										<input  class="y" type="text" name="lname" placeholder="e.g.smith" required pattern="[a-zA-Z]{2,20}" title="letters only...!">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">Email Address:<br>
+										<input type="Email" name="em" placeholder="e.g.john@your-domain.com" class="x y"  required  title="Enter valid Email....">
+							</td>
+						</tr>
+						<tr>
+							<td>Phone Number:<br>
+											<input type="text" class="y" name="pn" placeholder="+00 0000 000 0000" required pattern="[0-9]{10}" title="numbers only...!">
+								</td>
+										<td>Website:<br>
+											<input type="text" name="wb" class="y" placeholder="e.g.https://google.com" required>
+										</td>
+									</tr>
+									<tr>
+										<td>Password:<br>
+											<input type="password" name="pd" class="y" placeholder="Your Password" required>
+										</td>
+										<td>Re-Type Password:<br>
+											<input type="password" name="rpd"  class="y" placeholder="Your Password" required>
+										</td>
+									</tr>
+									<tr>
+									<td colspan="2" style="font-size:10px;">
+									<input type="checkbox" name="pr" required>
+										Creating an account means you are okay with our <a href="tc.html" style="color:black;">Terms and Condition</a> and our <a style="color:black;" href="p.html">Privacy Policy.</a>	
+									</td> 
+								</tr>
+								<tr>
+									<td colspan="2">
+										<input type="Submit" name="Register" value="Register" style="background: coral; border: none;" class="y" required>
+									</td>
+								</tr>
+							</table>
+						</form>
+					</td>
+				<td style="width:15%;" class="t2">
+					</td>
+				</tr>
+			</table>
+
 </body>
 </html>
