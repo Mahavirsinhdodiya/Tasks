@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		*{box-sizing: border-box; margin: 0; padding: 0;}
+		.header
+		{
+			height: 150px;
+			display: flex;
+			flex-wrap: wrap;
+			text-align: center;
+			line-height: 150px;
+			/*background: black;*/		
+		}
+		.header .text
+		{
+			height: auto;
+			width: 33.33%;
+			/*background: yellow;*/
+			font-size: 55px;
+			position: relative;
+		}
+		.header .text span
+		{
+			color: white;
+			background: black;
+			font-weight: bold;
+			font-size: 70px;
+			padding: 10px;
+		}
+		.header .text i
+		{
+			font-size: 25px;
+			color: lightblue;
+			position: fixed;
+			position: absolute;
+			top: 66%;
+			left: 60%;
+			right: 0;
+			
+		}
+
+		
+		.header .blank1,.blank2
+		{
+			width: 33.33%;
+			height: auto;
+			/*background: black;*/
+		}
+		@media(max-width: 500px)
+		{
+			.header .text{width:50%;}
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="blank1"></div>
+		<div class="text"><span>E</span>lite Shoppy
+		<i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+		<div class="blank2"></div>
+	</div>
+
+</body>
+</html>
